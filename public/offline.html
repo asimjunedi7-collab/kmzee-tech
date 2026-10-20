@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <title>Offline | KMZee Technology</title>
+    <meta name="theme-color" content="#0c343d" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#071e23" media="(prefers-color-scheme: dark)" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f0feff;
+        --fg: #0c343d;
+        --muted: #2e6e7a;
+        --card: #ffffff;
+        --line: rgb(12 52 61 / 0.12);
+        --primary: #0c343d;
+        --on-primary: #f0feff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #071e23;
+          --fg: #f0feff;
+          --muted: #8fc5cf;
+          --card: #0c343d;
+          --line: rgb(143 197 207 / 0.18);
+          --primary: #2bb5c4;
+          --on-primary: #071e23;
+        }
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; min-height: 100%; }
+      body {
+        background: var(--bg);
+        color: var(--fg);
+        font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+        line-height: 1.6;
+        display: grid;
+        place-items: center;
+        padding: 1.5rem 1rem;
+      }
+      main {
+        width: 100%;
+        max-width: 28rem;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 1.5rem;
+        padding: 2rem 1.5rem;
+        text-align: center;
+        box-shadow: 0 20px 44px -20px rgb(12 52 61 / 0.25);
+      }
+      img { width: 56px; height: 56px; }
+      h1 { font-size: 1.75rem; line-height: 1.15; letter-spacing: -0.02em; margin: 1rem 0 0.5rem; }
+      p { margin: 0 0 1rem; color: var(--muted); }
+      .ar { font-family: "IBM Plex Sans Arabic", "Trebuchet MS", Tahoma, Arial, sans-serif; direction: rtl; line-height: 1.8; }
+      .actions { display: grid; gap: 0.75rem; margin-top: 1.5rem; }
+      a, button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 3rem;
+        border-radius: 999px;
+        font: inherit;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid transparent;
+      }
+      .primary { background: var(--primary); color: var(--on-primary); }
+      .ghost { background: transparent; color: var(--fg); border-color: var(--line); }
+      button:active, a:active { transform: scale(0.97); }
+      hr { border: 0; border-top: 1px solid var(--line); margin: 1.5rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="/images/logo-128.webp" alt="" width="56" height="56" />
+      <h1>You're offline</h1>
+      <p>Pages you have already opened are still available. Reconnect to load new content.</p>
+      <div class="actions">
+        <button type="button" class="primary" onclick="location.reload()">Try again</button>
+        <a class="ghost" href="https://wa.me/966571126407" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+      </div>
+
+      <hr />
+
+      <div class="ar" lang="ar">
+        <h1 style="font-family: inherit; font-size: 1.4rem">أنت غير متصل بالإنترنت</h1>
+        <p>الصفحات التي فتحتها سابقًا ما زالت متاحة. أعد الاتصال لتحميل المحتوى الجديد.</p>
+        <div class="actions">
+          <a class="ghost" href="/ar/">العودة إلى الصفحة الرئيسية</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

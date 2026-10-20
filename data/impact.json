@@ -1,0 +1,17 @@
+{
+  "_note": "PLACEHOLDER figures. Only the 2M+ SAR total is confirmed. Replace the yearly split and the category shares with real numbers before going live. Amounts are in Saudi riyals (SAR).",
+  "earnedByYear": [
+    { "year": "2021", "sar": 150000 },
+    { "year": "2022", "sar": 320000 },
+    { "year": "2023", "sar": 410000 },
+    { "year": "2024", "sar": 480000 },
+    { "year": "2025", "sar": 560000 },
+    { "year": "2026", "sar": 180000 }
+  ],
+  "accomplished": [
+    { "id": "products", "value": 34 },
+    { "id": "transformation", "value": 26 },
+    { "id": "branding", "value": 18 },
+    { "id": "data", "value": 22 }
+  ]
+}

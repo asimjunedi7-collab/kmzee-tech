@@ -1,0 +1,25 @@
+{
+  "id": "/ar/",
+  "name": "KMZee Technology | الأعمال + التقنية",
+  "short_name": "KMZee",
+  "description": "تنفيذ تقني مبني على فهم حقيقي للأعمال. منتجات رقمية وتحول في الأعمال.",
+  "start_url": "/ar/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f0feff",
+  "theme_color": "#0c343d",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "الخدمات", "short_name": "الخدمات", "url": "/ar/#services" },
+    { "name": "أعمالنا", "short_name": "أعمالنا", "url": "/ar/#clients" },
+    { "name": "تواصل معنا", "short_name": "تواصل", "url": "/ar/#contact" }
+  ]
+}

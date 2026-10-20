@@ -1,0 +1,74 @@
+{
+  "en": {
+    "partners": {
+      "eyebrow": "Trusted by teams",
+      "title": "Companies we have partnered with and worked with",
+      "subtitle": "Startups, ventures and established businesses we have built and grown alongside."
+    },
+    "impact": {
+      "eyebrow": "Our track record",
+      "earnedTitle": "Revenue earned across our engagements",
+      "earnedTotal": "2M+ SAR",
+      "accomplishedTitle": "Where our work has delivered",
+      "barTitle": "Revenue by year, in Saudi riyals",
+      "categories": {
+        "products": "Product development",
+        "transformation": "Business transformation",
+        "branding": "Branding and marketing",
+        "data": "Data and analytics"
+      }
+    },
+    "team": {
+      "rocketLabel": "Ready for launch",
+      "rocketTitle": "Let's launch your project"
+    },
+    "lead": {
+      "eyebrow": "Free assessment",
+      "title": "Get a free assessment of your project",
+      "subtitle": "Tell us what you are building. We review it with you and suggest a clear path forward.",
+      "points": [
+        "A review of your idea, product or requirements",
+        "A clear scope, timeline and next steps",
+        "No obligation and no cost"
+      ],
+      "cta": "Get my free assessment",
+      "message": "Hi KMZee, I would like a free assessment of my project."
+    }
+  },
+  "ar": {
+    "partners": {
+      "eyebrow": "يثق بنا فريقنا",
+      "title": "الشركات التي تعاونّا معها",
+      "subtitle": "شركات ناشئة ومشاريع وأعمال قائمة بنينا معها وساعدناها على النمو."
+    },
+    "impact": {
+      "eyebrow": "سجلّ إنجازاتنا",
+      "earnedTitle": "الإيرادات المحققة من تعاوننا مع العملاء",
+      "earnedTotal": "أكثر من 2 مليون ريال",
+      "accomplishedTitle": "أين تحققت نتائج عملنا",
+      "barTitle": "الإيرادات حسب السنة، بالريال السعودي",
+      "categories": {
+        "products": "تطوير المنتجات",
+        "transformation": "التحول في الأعمال",
+        "branding": "العلامة التجارية والتسويق",
+        "data": "البيانات والتحليلات"
+      }
+    },
+    "team": {
+      "rocketLabel": "جاهزون للإطلاق",
+      "rocketTitle": "لننطلق بمشروعك"
+    },
+    "lead": {
+      "eyebrow": "تقييم مجاني",
+      "title": "احصل على تقييم مجاني لمشروعك",
+      "subtitle": "أخبرنا بما تبنيه. نراجعه معك ونقترح مسارًا واضحًا للمضي قدمًا.",
+      "points": [
+        "مراجعة لفكرتك أو منتجك أو متطلباتك",
+        "نطاق واضح وجدول زمني وخطوات تالية",
+        "دون التزام ودون تكلفة"
+      ],
+      "cta": "احصل على تقييمي المجاني",
+      "message": "مرحبًا KMZee، أود الحصول على تقييم مجاني لمشروعي."
+    }
+  }
+}

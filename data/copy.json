@@ -1,0 +1,842 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "team": "Team",
+      "contact": "Contact"
+    },
+    "hero": {
+      "brand": "KMZee Technology",
+      "titleBefore": "Business",
+      "titleAfter": "Tech",
+      "subtitle": "Technology execution shaped by business understanding.",
+      "builtAround": "Built around",
+      "typed": [
+        "Business Understanding",
+        "Technology Execution",
+        "Product Thinking",
+        "Operational Transformation"
+      ],
+      "quote": "Credibility is earned by what we do, not by what we own to be.",
+      "ctaPrimary": "Explore What We Do",
+      "ctaSecondary": "See Our Impact",
+      "ctaContact": "Let's Talk"
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "Technology built with business understanding.",
+      "introBrand": "KMZee Technology",
+      "introBeforeHolding": "is the tech vertical of",
+      "holdingName": "KMZee Holding",
+      "introAfterHolding": "built on a simple principle: strong digital solutions begin with understanding the business behind them.",
+      "paragraph2": "We combine execution with business insight to solve the challenge behind the requirement — not merely build the requested feature.",
+      "result": "The result: solutions that are built well, built with purpose and built around the business.",
+      "sinceLabel": "Since",
+      "sinceValue": "2021",
+      "sinceText": "Combining technology delivery with business execution.",
+      "approachLabel": "Our Approach",
+      "approachValue": "Business + Tech",
+      "approachText": "Business thinking embedded in every key decision.",
+      "buildLabel": "What We Build",
+      "buildValue": "Digital Products",
+      "buildText": "From concept to scalable digital product.",
+      "transformationLabel": "Business Transformation",
+      "transformationValue": "Strategy & Operations",
+      "transformationText": "Stronger strategy. Leaner operations. Data-led decisions."
+    },
+    "services": {
+      "title": "Services & Business Transformation",
+      "subtitle": "Execution across product, brand and growth — strengthened by strategy, operations and data.",
+      "capabilitiesLabel": "Execution Capabilities",
+      "cards": [
+        {
+          "title": "SOFTWARE",
+          "subtitle": "DESIGN, DEVELOPMENT & SUPPORT",
+          "items": [
+            "Product Strategy & Planning",
+            "MVP & Product Development",
+            "Web & Mobile Applications",
+            "Backend & API Integration",
+            "DevOps & Software Testing",
+            "Deployment & Support"
+          ]
+        },
+        {
+          "title": "BRANDING",
+          "subtitle": "CONTENT CREATION & MANAGEMENT",
+          "items": [
+            "Brand Strategy",
+            "Identity & Design",
+            "Brand Assets",
+            "Company & Pitch Materials",
+            "Social Content",
+            "UI/UX Design"
+          ]
+        },
+        {
+          "title": "MARKETING",
+          "subtitle": "GROWTH STRATEGY & MANAGEMENT",
+          "items": [
+            "Growth Strategy",
+            "Social Media and Ad Campaign Management",
+            "Market Research and Analytics",
+            "Events and Direct Marketing",
+            "SEO and App Store Optimization",
+            "Content And Email Marketing",
+            "Partnerships & Influencer Marketing"
+          ]
+        }
+      ]
+    },
+    "business": {
+      "label": "Business Transformation",
+      "cards": [
+        {
+          "title": "Strategy And Planning",
+          "items": [
+            "Business Modeling",
+            "Financial Planning",
+            "Startup & Market Launch",
+            "Organization Design",
+            "KPI & Performance Frameworks",
+            "Product Strategy and Launch"
+          ]
+        },
+        {
+          "title": "Operations",
+          "items": [
+            "Resource Planning",
+            "Vendor Management",
+            "Fleet & Field Operations",
+            "Process Improvement",
+            "Lean Implementation",
+            "Operational Performance"
+          ]
+        },
+        {
+          "title": "Intelligence",
+          "items": [
+            "Data Warehousing",
+            "Data Quality",
+            "Querying & Analytics",
+            "Reporting & Visualization",
+            "Performance Insights"
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "eyebrow": "Measurable Impact",
+      "title": "Business Transformation Highlights",
+      "subtitle": "Selected outcomes across strategy, operations, product, growth and business intelligence.",
+      "closing": "Transformation measured by business outcomes — not activity alone.",
+      "highlights": [
+        {
+          "company": "Bee",
+          "title": "Business Turnaround",
+          "duration": "~4-month engagement | Sep–Dec 2022",
+          "metrics": [
+            {
+              "label": "Rides",
+              "value": "+85%"
+            },
+            {
+              "label": "Revenue",
+              "value": "+84%"
+            },
+            {
+              "label": "Active Clients",
+              "value": "+229%"
+            },
+            {
+              "label": "Burn / Revenue",
+              "value": "41% → 12%"
+            }
+          ],
+          "scope": "Strategy · Operations · Organisation · Data & BI"
+        },
+        {
+          "company": "InRide",
+          "title": "Marketplace Scale-Up",
+          "duration": "Multi-stage engagement | Launch → Growth",
+          "metrics": [
+            {
+              "label": "Monthly Trips",
+              "value": "315 → 10,193"
+            },
+            {
+              "label": "Monthly Revenue",
+              "value": "SAR 6.8K → SAR 193K"
+            },
+            {
+              "label": "Burn / Revenue",
+              "value": "208% → 22%"
+            }
+          ],
+          "scope": "Strategy · Product · Operations · Financials · Data"
+        },
+        {
+          "company": "Soumha",
+          "title": "Strategy, Product & Investment",
+          "duration": "~7-month engagement | Aug 2024–Feb 2025",
+          "metrics": [
+            {
+              "label": "Seed Secured",
+              "value": "SAR 100K"
+            },
+            {
+              "label": "Further Commitment",
+              "value": "SAR 250K"
+            },
+            {
+              "label": "Acquisition Interest",
+              "value": "Generated"
+            },
+            {
+              "label": "Marketplace Strategy",
+              "value": "Investor-ready"
+            }
+          ],
+          "scope": "Strategy · Product · Investment · Market Development"
+        },
+        {
+          "company": "SwiftEx",
+          "title": "Rapid Operational Execution",
+          "duration": "~6-month engagement | Oct 2025–Mar 2026",
+          "metrics": [
+            {
+              "label": "Schools Served Nationwide",
+              "value": "400+"
+            },
+            {
+              "label": "Delivery Execution",
+              "value": "<1 week"
+            },
+            {
+              "label": "Net Profit",
+              "value": "~SAR 60K"
+            },
+            {
+              "label": "Margin",
+              "value": "~35%"
+            }
+          ],
+          "scope": "Logistics · Operations · Commercial Planning · Analytics"
+        }
+      ]
+    },
+    "products": {
+      "title": "Product Platforms",
+      "subtitle": "Adaptable digital foundations across different business models, markets and operating needs.",
+      "platforms": [
+        {
+          "title": "Ecommerce & Marketplace",
+          "desc": "Retail and multi-vendor platforms"
+        },
+        {
+          "title": "Digital Auctions",
+          "desc": "Bidding and auction marketplaces"
+        },
+        {
+          "title": "Automotive Marketplace",
+          "desc": "Vehicle listings and trading platforms"
+        },
+        {
+          "title": "Appointments & Healthcare",
+          "desc": "Scheduling and service booking systems"
+        },
+        {
+          "title": "Inventory & Warehouse",
+          "desc": "Stock, movement and inventory workflows"
+        },
+        {
+          "title": "Facility & Field Services",
+          "desc": "Service requests and workforce operations"
+        },
+        {
+          "title": "Mobility & Delivery",
+          "desc": "Transport and on-demand service platforms"
+        },
+        {
+          "title": "Custom Business Platforms",
+          "desc": "Purpose-built operational solutions"
+        }
+      ],
+      "marketTitle": "Take It to Your Market",
+      "marketDesc": "Start from an existing product foundation and adapt it to your brand, market and operating model.",
+      "partnerTitle": "Flexible Ways to Partner",
+      "partnerDesc": "Upfront, phased, revenue-share and eligible deferred-payment options.",
+      "tabs": {
+        "whiteLabel": "White Label",
+        "franchise": "Franchise"
+      },
+      "whiteLabelBenefits": [
+        {
+          "title": "Flexible Setup",
+          "desc": "Structured around project and market requirements"
+        },
+        {
+          "title": "Pre-Launch Customization",
+          "desc": "Adapt branding, UI and core functionality"
+        },
+        {
+          "title": "Flexible Packages",
+          "desc": "Commercial models aligned to your operation"
+        },
+        {
+          "title": "Ongoing Support",
+          "desc": "Technical support throughout the engagement"
+        },
+        {
+          "title": "Feature Expansion",
+          "desc": "Extend capabilities as the business grows"
+        },
+        {
+          "title": "Custom Integrations",
+          "desc": "Connect with preferred third-party systems"
+        }
+      ],
+      "franchise": {
+        "title": "Market Partnership Model",
+        "items": [
+          {
+            "title": "Flexible Commercials",
+            "desc": "Partnership structures aligned to the market opportunity."
+          },
+          {
+            "title": "Local Market Operation",
+            "desc": "Adapt the platform around local operational requirements."
+          },
+          {
+            "title": "Continued Support",
+            "desc": "Product and technical support throughout the partnership."
+          }
+        ]
+      }
+    },
+    "techStack": {
+      "eyebrow": "Built to Deliver",
+      "title": "Technology & Creative Stack",
+      "subtitle": "A practical stack selected around product needs — not technology for technology's sake.",
+      "techLabel": "TECH",
+      "designLabel": "DESIGN",
+      "frontEnd": "Web & Mobile Front End",
+      "backEnd": "Back End",
+      "dataServices": "Databases & Data Services"
+    },
+    "team": {
+      "title": "Build Your Team",
+      "subtitle": "Flexible access to the capabilities your project needs.",
+      "roles": [
+        {
+          "title": "Product & Project Management",
+          "desc": "Planning, coordination and delivery support."
+        },
+        {
+          "title": "Full Stack Engineering",
+          "desc": "Frontend, backend and end-to-end development."
+        },
+        {
+          "title": "Mobile Development",
+          "desc": "Cross-platform and native mobile applications."
+        },
+        {
+          "title": "Backend & API Engineering",
+          "desc": "Scalable systems, integrations and APIs."
+        },
+        {
+          "title": "UI/UX & Visual Design",
+          "desc": "Product interfaces, design systems and visual communication."
+        },
+        {
+          "title": "Data & Business Intelligence",
+          "desc": "Analytics, reporting and decision support."
+        },
+        {
+          "title": "DevOps & Deployment",
+          "desc": "Infrastructure, releases and production support."
+        },
+        {
+          "title": "Strategy & Operations",
+          "desc": "Business planning, process improvement and execution."
+        }
+      ],
+      "closing": "Engage individual specialists or build a flexible extended team around your requirements."
+    },
+    "portfolio": {
+      "title": "Selected Projects, Ventures & Partners",
+      "subtitle": "Products, ventures and client businesses supported through technology, design and business execution."
+    },
+    "voices": {
+      "title": "Voices",
+      "subtitle": "Real experiences from clients and partners.",
+      "items": [
+        {
+          "name": "Yousef Alqahtani",
+          "position": "Founder & CEO · Facilitify",
+          "review": "Your added value in business strategy and planning while designing and developing our client mobile application was immense. We only gave you the basic workflow of our requirement and the rest was all taken care of by you. We are really glad to team up with you and look forward to achieving success together. Thank you!"
+        },
+        {
+          "name": "Saif Siddiqui",
+          "position": "Founder & CEO · SS Enterprises",
+          "review": "We recently availed services from KMZee and were amazed by their instant response. They came up with creative ideas to meet our demands. We really appreciate their quick feedback and professional suggestions in order to provide a creative solution. Thumbs up to the entire team. We wish them happiness and success in both worlds. May Allah grant Team KMZee greater success and strength to reach new heights. Aameen."
+        },
+        {
+          "name": "Faizan Khan",
+          "position": "Co-Founder · AucSphere",
+          "review": "KMZee Tech provided a wonderful experience in developing our software application. They have a dedicated team that understands requirements well and shapes them into a functional application. The team is efficient, hardworking and quick to implement changes once confirmed. Definitely recommended for developing software solutions."
+        },
+        {
+          "name": "Bushra Naseer",
+          "position": "Individual Client",
+          "review": "KMZee is undoubtedly among the best in providing technology solutions. They have dedicated and friendly staff who ensure customer satisfaction. During my experience with them, it was impressive how they never missed even the smallest detail. Their professionalism, enthusiasm and passion truly stand out."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Have a project, partnership or business challenge in mind? Start a conversation with us.",
+      "whatsappTitle": "WhatsApp",
+      "whatsappDesc": "For quick enquiries and direct conversations.",
+      "whatsappCta": "Start Chat",
+      "callTitle": "Call Us",
+      "callDesc": "Choose the regional number most convenient for you.",
+      "countries": {
+        "india": "India",
+        "saudiArabia": "Saudi Arabia",
+        "unitedKingdom": "United Kingdom",
+        "canada": "Canada"
+      },
+      "availability": "Available across India, Saudi Arabia, the United Kingdom and Canada.",
+      "mapAlt": "KMZee regional presence"
+    },
+    "footer": {
+      "brand": "KMZee Technology",
+      "verticalOf": "A vertical of",
+      "rights": "All rights reserved."
+    }
+  },
+  "ar": {
+    "nav": {
+      "home": "الرئيسية",
+      "products": "المنتجات",
+      "services": "الخدمات",
+      "portfolio": "أعمالنا",
+      "team": "الفريق",
+      "contact": "تواصل معنا"
+    },
+    "hero": {
+      "brand": "KMZee Technology",
+      "titleBefore": "الأعمال",
+      "titleAfter": "التقنية",
+      "subtitle": "تنفيذ تقني مبني على فهم حقيقي للأعمال.",
+      "builtAround": "نبني حول",
+      "typed": [
+        "فهم الأعمال",
+        "التنفيذ التقني",
+        "التفكير بالمنتج",
+        "التحول التشغيلي"
+      ],
+      "quote": "المصداقية تُكتسب بما ننجزه، لا بما ندّعيه.",
+      "ctaPrimary": "اكتشف ما نقدمه",
+      "ctaSecondary": "اطّلع على أثرنا",
+      "ctaContact": "لنتحدث"
+    },
+    "about": {
+      "title": "من نحن",
+      "subtitle": "تقنية تُبنى على فهم الأعمال.",
+      "introBrand": "KMZee Technology",
+      "introBeforeHolding": "هي الذراع التقني لـ",
+      "holdingName": "KMZee Holding",
+      "introAfterHolding": "وننطلق من مبدأ بسيط: الحلول الرقمية القوية تبدأ بفهم الأعمال التي تقف خلفها.",
+      "paragraph2": "نجمع بين التنفيذ والفهم التجاري لمعالجة التحدي الحقيقي خلف المتطلب، لا لمجرد بناء الميزة المطلوبة.",
+      "result": "النتيجة: حلول مبنية بإتقان، ووضوح في الهدف، وفهم حقيقي للأعمال.",
+      "sinceLabel": "منذ",
+      "sinceValue": "2021",
+      "sinceText": "نجمع بين التنفيذ التقني وفهم الأعمال.",
+      "approachLabel": "نهجنا",
+      "approachValue": "الأعمال + التقنية",
+      "approachText": "فهم الأعمال حاضر في كل قرار رئيسي.",
+      "buildLabel": "ما نبنيه",
+      "buildValue": "منتجات رقمية",
+      "buildText": "من الفكرة إلى منتج رقمي قابل للتوسع.",
+      "transformationLabel": "التحول في الأعمال",
+      "transformationValue": "الاستراتيجية والعمليات",
+      "transformationText": "استراتيجية أقوى، وعمليات أكثر كفاءة، وقرارات مدعومة بالبيانات."
+    },
+    "services": {
+      "title": "الخدمات والتحول في الأعمال",
+      "subtitle": "تنفيذ يشمل المنتج، والعلامة التجارية، والنمو — مدعومًا بالاستراتيجية، والعمليات، والبيانات.",
+      "capabilitiesLabel": "قدرات التنفيذ",
+      "cards": [
+        {
+          "title": "البرمجيات",
+          "subtitle": "التصميم والتطوير والدعم",
+          "items": [
+            "استراتيجية المنتج والتخطيط",
+            "تطوير المنتجات وMVP",
+            "تطبيقات الويب والجوال",
+            "تطوير Backend وتكامل API",
+            "DevOps واختبار البرمجيات",
+            "الإطلاق والدعم"
+          ]
+        },
+        {
+          "title": "العلامة التجارية",
+          "subtitle": "إنشاء المحتوى وإدارته",
+          "items": [
+            "استراتيجية العلامة التجارية",
+            "الهوية والتصميم",
+            "أصول العلامة التجارية",
+            "ملفات الشركة وعروض التقديم",
+            "محتوى المنصات الاجتماعية",
+            "تصميم UI/UX"
+          ]
+        },
+        {
+          "title": "التسويق",
+          "subtitle": "استراتيجية النمو وإدارته",
+          "items": [
+            "استراتيجية النمو",
+            "إدارة منصات التواصل والحملات الإعلانية",
+            "أبحاث السوق والتحليلات",
+            "الفعاليات والتسويق المباشر",
+            "تحسين SEO ومتاجر التطبيقات",
+            "المحتوى والتسويق عبر البريد الإلكتروني",
+            "الشراكات والتسويق عبر المؤثرين"
+          ]
+        }
+      ]
+    },
+    "business": {
+      "label": "التحول في الأعمال",
+      "cards": [
+        {
+          "title": "الاستراتيجية والتخطيط",
+          "items": [
+            "نمذجة الأعمال",
+            "التخطيط المالي",
+            "إطلاق الشركات ودخول الأسواق",
+            "تصميم الهياكل التنظيمية",
+            "مؤشرات الأداء وأطر القياس",
+            "استراتيجية المنتج وإطلاقه"
+          ]
+        },
+        {
+          "title": "العمليات",
+          "items": [
+            "تخطيط الموارد",
+            "إدارة الموردين",
+            "عمليات الأساطيل والميدان",
+            "تحسين العمليات",
+            "تطبيق منهجيات Lean",
+            "الأداء التشغيلي"
+          ]
+        },
+        {
+          "title": "ذكاء الأعمال",
+          "items": [
+            "مستودعات البيانات",
+            "جودة البيانات",
+            "الاستعلامات والتحليلات",
+            "التقارير والتصورات البيانية",
+            "رؤى الأداء"
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "eyebrow": "أثر قابل للقياس",
+      "title": "أبرز نتائج التحول في الأعمال",
+      "subtitle": "نتائج مختارة في الاستراتيجية، والعمليات، والمنتج، والنمو، وذكاء الأعمال.",
+      "closing": "نقيس التحول بنتائج الأعمال، لا بحجم النشاط وحده.",
+      "highlights": [
+        {
+          "company": "Bee",
+          "title": "تحول الأعمال",
+          "duration": "نحو 4 أشهر | سبتمبر – ديسمبر 2022",
+          "metrics": [
+            {
+              "label": "الرحلات",
+              "value": "+85%"
+            },
+            {
+              "label": "الإيرادات",
+              "value": "+84%"
+            },
+            {
+              "label": "العملاء النشطون",
+              "value": "+229%"
+            },
+            {
+              "label": "المصروفات / الإيرادات",
+              "value": "12% ← 41%"
+            }
+          ],
+          "scope": "الاستراتيجية · العمليات · الهيكلة · البيانات وذكاء الأعمال"
+        },
+        {
+          "company": "InRide",
+          "title": "توسع منصة السوق",
+          "duration": "تعاون على مراحل | من الإطلاق إلى النمو",
+          "metrics": [
+            {
+              "label": "الرحلات الشهرية",
+              "value": "315 ← 10,193"
+            },
+            {
+              "label": "الإيرادات الشهرية",
+              "value": "6.8 ← 193 ألف ريال"
+            },
+            {
+              "label": "المصروفات / الإيرادات",
+              "value": "22% ← 208%"
+            }
+          ],
+          "scope": "الاستراتيجية · المنتج · العمليات · التخطيط المالي · البيانات"
+        },
+        {
+          "company": "Soumha",
+          "title": "الاستراتيجية والمنتج والاستثمار",
+          "duration": "نحو 7 أشهر | أغسطس 2024 – فبراير 2025",
+          "metrics": [
+            {
+              "label": "تمويل أولي",
+              "value": "100 ألف ريال"
+            },
+            {
+              "label": "التزام إضافي",
+              "value": "250 ألف ريال"
+            },
+            {
+              "label": "اهتمام بالاستحواذ",
+              "value": "تم توليده"
+            },
+            {
+              "label": "استراتيجية المنصة",
+              "value": "جاهزة للمستثمرين"
+            }
+          ],
+          "scope": "الاستراتيجية · المنتج · الاستثمار · تطوير السوق"
+        },
+        {
+          "company": "SwiftEx",
+          "title": "تنفيذ تشغيلي سريع",
+          "duration": "نحو 6 أشهر | أكتوبر 2025 – مارس 2026",
+          "metrics": [
+            {
+              "label": "المدارس المخدومة على مستوى المملكة",
+              "value": "+400"
+            },
+            {
+              "label": "تنفيذ التوصيل",
+              "value": "أقل من أسبوع"
+            },
+            {
+              "label": "صافي الربح",
+              "value": "نحو 60 ألف ريال"
+            },
+            {
+              "label": "هامش الربح",
+              "value": "نحو %35"
+            }
+          ],
+          "scope": "اللوجستيات · العمليات · التخطيط التجاري · التحليلات"
+        }
+      ]
+    },
+    "products": {
+      "title": "منصات المنتجات",
+      "subtitle": "أسس رقمية مرنة لمختلف نماذج الأعمال والأسواق واحتياجات التشغيل.",
+      "platforms": [
+        {
+          "title": "التجارة الإلكترونية والأسواق الرقمية",
+          "desc": "منصات للبيع بالتجزئة ومتعددة البائعين"
+        },
+        {
+          "title": "المزادات الرقمية",
+          "desc": "منصات للمزايدة والمزادات الإلكترونية"
+        },
+        {
+          "title": "أسواق السيارات",
+          "desc": "منصات لعرض المركبات وبيعها وشرائها"
+        },
+        {
+          "title": "المواعيد والرعاية الصحية",
+          "desc": "أنظمة لحجز المواعيد والخدمات"
+        },
+        {
+          "title": "المخزون والمستودعات",
+          "desc": "إدارة المخزون والحركة ومسارات العمل"
+        },
+        {
+          "title": "خدمات المرافق والميدان",
+          "desc": "طلبات الخدمة وعمليات فرق العمل الميدانية"
+        },
+        {
+          "title": "التنقل والتوصيل",
+          "desc": "منصات للنقل والخدمات عند الطلب"
+        },
+        {
+          "title": "منصات أعمال مخصصة",
+          "desc": "حلول تشغيلية مصممة لاحتياجات محددة"
+        }
+      ],
+      "marketTitle": "انطلق بها إلى سوقك",
+      "marketDesc": "ابدأ من منتج قائم، وكيّفه بما يناسب علامتك التجارية، وسوقك، ونموذج التشغيل لديك.",
+      "partnerTitle": "نماذج تعاون مرنة",
+      "partnerDesc": "دفعات مقدمة أو مرحلية، ومشاركة في الإيرادات، وخيارات دفع مؤجل للحالات المؤهلة.",
+      "tabs": {
+        "whiteLabel": "بعلامتك التجارية",
+        "franchise": "الامتياز والشراكة"
+      },
+      "whiteLabelBenefits": [
+        {
+          "title": "إعداد مرن",
+          "desc": "يُبنى وفق متطلبات المشروع والسوق"
+        },
+        {
+          "title": "تخصيص قبل الإطلاق",
+          "desc": "تكييف العلامة التجارية وواجهة المستخدم والخصائص الأساسية"
+        },
+        {
+          "title": "باقات مرنة",
+          "desc": "نماذج تجارية تتناسب مع طبيعة التشغيل"
+        },
+        {
+          "title": "دعم مستمر",
+          "desc": "دعم تقني طوال فترة التعاون"
+        },
+        {
+          "title": "توسيع الخصائص",
+          "desc": "إضافة قدرات جديدة مع نمو الأعمال"
+        },
+        {
+          "title": "تكاملات مخصصة",
+          "desc": "الربط مع الأنظمة الخارجية التي تناسب احتياجاتك"
+        }
+      ],
+      "franchise": {
+        "title": "نموذج الشراكة السوقية",
+        "items": [
+          {
+            "title": "نماذج تجارية مرنة",
+            "desc": "هياكل شراكة تتناسب مع طبيعة الفرصة في السوق."
+          },
+          {
+            "title": "تشغيل محلي",
+            "desc": "تكييف المنصة وفق متطلبات التشغيل في السوق المحلي."
+          },
+          {
+            "title": "دعم مستمر",
+            "desc": "دعم للمنتج والتقنية طوال فترة الشراكة."
+          }
+        ]
+      }
+    },
+    "techStack": {
+      "eyebrow": "جاهزون للتنفيذ",
+      "title": "منظومة التقنية والتصميم",
+      "subtitle": "اختيارات تقنية عملية تُبنى حول احتياجات المنتج، لا لمجرد استخدام التقنية.",
+      "techLabel": "التقنية",
+      "designLabel": "التصميم",
+      "frontEnd": "واجهات الويب والجوال",
+      "backEnd": "الأنظمة الخلفية",
+      "dataServices": "قواعد البيانات وخدمات البيانات"
+    },
+    "team": {
+      "title": "كوّن فريقك",
+      "subtitle": "وصول مرن إلى الخبرات التي يحتاجها مشروعك.",
+      "roles": [
+        {
+          "title": "إدارة المنتج والمشاريع",
+          "desc": "التخطيط، والتنسيق، ودعم التنفيذ."
+        },
+        {
+          "title": "تطوير Full Stack",
+          "desc": "تطوير الواجهات والأنظمة الخلفية بشكل متكامل."
+        },
+        {
+          "title": "تطوير تطبيقات الجوال",
+          "desc": "تطبيقات متعددة المنصات وتطبيقات Native."
+        },
+        {
+          "title": "تطوير Backend وواجهات API",
+          "desc": "أنظمة قابلة للتوسع، وتكاملات، وواجهات API."
+        },
+        {
+          "title": "تصميم UI/UX والتصميم البصري",
+          "desc": "واجهات المنتجات، وأنظمة التصميم، والتواصل البصري."
+        },
+        {
+          "title": "البيانات وذكاء الأعمال",
+          "desc": "التحليلات، والتقارير، ودعم اتخاذ القرار."
+        },
+        {
+          "title": "DevOps والإطلاق",
+          "desc": "البنية التحتية، والإصدارات، ودعم بيئات الإنتاج."
+        },
+        {
+          "title": "الاستراتيجية والعمليات",
+          "desc": "تخطيط الأعمال، وتحسين العمليات، ودعم التنفيذ."
+        }
+      ],
+      "closing": "استعن بخبرات متخصصة عند الحاجة، أو كوّن فريقًا ممتدًا ومرنًا وفق متطلباتك."
+    },
+    "portfolio": {
+      "title": "مشاريع ومبادرات وشركاء مختارون",
+      "subtitle": "منتجات ومبادرات وأعمال عملاء دعمناها عبر التقنية، والتصميم، وتنفيذ الأعمال."
+    },
+    "voices": {
+      "title": "آراء عملائنا",
+      "subtitle": "تجارب حقيقية من عملائنا وشركائنا.",
+      "items": [
+        {
+          "name": "Yousef Alqahtani",
+          "position": "المؤسس والرئيس التنفيذي · Facilitify",
+          "review": "كانت القيمة التي أضفتموها في استراتيجية الأعمال والتخطيط، بالتوازي مع تصميم وتطوير التطبيق، كبيرة جدًا. قدّمنا لكم فقط سير العمل الأساسي، وتولى فريقكم بقية التفاصيل والتنفيذ. سعدنا بالتعاون معكم ونتطلع إلى تحقيق المزيد من النجاح معًا. شكرًا لكم."
+        },
+        {
+          "name": "Saif Siddiqui",
+          "position": "المؤسس والرئيس التنفيذي · SS Enterprises",
+          "review": "أعجبنا في KMZee سرعة الاستجابة، والأفكار الإبداعية، والمقترحات المهنية. ساعد دعمهم في تقديم حل يتناسب مع احتياجاتنا. كل التقدير لفريق KMZee، ونسأل الله لهم المزيد من النجاح والتوفيق."
+        },
+        {
+          "name": "Faizan Khan",
+          "position": "الشريك المؤسس · AucSphere",
+          "review": "قدّم فريق KMZee Tech تجربة مميزة في تطوير تطبيقنا. فهم الفريق متطلباتنا بشكل جيد، وحوّلها إلى تطبيق عملي وفعّال. كما تميز بسرعة الاستجابة والتنفيذ عند اعتماد أي تغييرات. نوصي بهم لتطوير الحلول البرمجية."
+        },
+        {
+          "name": "Bushra Naseer",
+          "position": "عميلة فردية",
+          "review": "تميّزت تجربتي مع KMZee بالمهنية، والاهتمام بالتفاصيل، والحرص على رضا العميل طوال فترة العمل معهم. كان من اللافت مدى اهتمام الفريق بأدق التفاصيل، إلى جانب الحماس والشغف في التنفيذ."
+        }
+      ]
+    },
+    "contact": {
+      "title": "لنتحدث",
+      "subtitle": "لديك مشروع، أو شراكة، أو تحدٍ في الأعمال؟ ابدأ بمحادثة معنا.",
+      "whatsappTitle": "واتساب",
+      "whatsappDesc": "للاستفسارات السريعة والتواصل المباشر.",
+      "whatsappCta": "ابدأ المحادثة",
+      "callTitle": "اتصل بنا",
+      "callDesc": "اختر الرقم الإقليمي الأنسب لك.",
+      "countries": {
+        "india": "الهند",
+        "saudiArabia": "السعودية",
+        "unitedKingdom": "بريطانيا",
+        "canada": "كندا"
+      },
+      "availability": "متاحون عبر الهند، والسعودية، وبريطانيا، وكندا.",
+      "mapAlt": "حضور KMZee الإقليمي"
+    },
+    "footer": {
+      "brand": "KMZee Technology",
+      "verticalOf": "إحدى قطاعات",
+      "rights": "جميع الحقوق محفوظة."
+    }
+  }
+}

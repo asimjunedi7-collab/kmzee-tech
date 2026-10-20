@@ -1,0 +1,673 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Brand palette
+   Locked: Brand Teal, Deep Teal, Mist, Frost, Sea Glass.
+   Approved additions: Harbor, Aqua, Sunrise, Night.
+   ------------------------------------------------------------------ */
+@theme inline {
+  --color-mist: #f0feff;
+  --color-frost: #dbeaed;
+  --color-sea: #8fc5cf;
+  --color-brand: #528d9b;
+  --color-harbor: #2e6e7a;
+  --color-deep: #0c343d;
+  --color-aqua: #2bb5c4;
+  --color-sunrise: #f2b66d;
+  --color-night: #071e23;
+
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-band: var(--band);
+  --color-band-fg: var(--band-fg);
+  --color-band-muted: var(--band-muted);
+  --color-band-line: var(--band-line);
+
+  --font-sans: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+}
+
+/* Component classes sit in Tailwind's components layer, so utilities such as
+   `hidden` and `lg:hidden` can still override them on the same element. */
+@layer components {
+
+/* ------------------------------------------------------------------
+   Semantic tokens. Light is the default. Dark applies when the
+   visitor's system prefers it, or when they pick Dark in the toggle.
+   ------------------------------------------------------------------ */
+:root {
+  color-scheme: light;
+  --bg: #f0feff;
+  --fg: #0c343d;
+  --muted: #2e6e7a;
+  --surface: #ffffff;
+  --surface-2: #dbeaed;
+  --line: rgb(12 52 61 / 0.12);
+  --accent: #2e6e7a;
+  --primary: #0c343d;
+  --primary-hover: #2e6e7a;
+  --on-primary: #f0feff;
+  --focus: #0c343d;
+  --glow-a: rgb(43 181 196 / 0.3);
+  --glow-b: rgb(82 141 155 / 0.24);
+  --header-bg: rgb(240 254 255 / 0.74);
+  --shadow: 0 1px 2px rgb(12 52 61 / 0.06), 0 18px 40px -20px rgb(12 52 61 / 0.25);
+  --chip: #dbeaed;
+  --sunrise-fill: #f2b66d;
+  --band: #0c343d;
+  --band-fg: #f0feff;
+  --band-muted: #8fc5cf;
+  --band-line: rgb(143 197 207 / 0.22);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #071e23;
+    --fg: #f0feff;
+    --muted: #8fc5cf;
+    --surface: #0c343d;
+    --surface-2: #0f3d47;
+    --line: rgb(143 197 207 / 0.18);
+    --accent: #2bb5c4;
+    --primary: #2bb5c4;
+    --primary-hover: #7fdbe6;
+    --on-primary: #071e23;
+    --focus: #2bb5c4;
+    --glow-a: rgb(43 181 196 / 0.22);
+    --glow-b: rgb(82 141 155 / 0.2);
+    --header-bg: rgb(7 30 35 / 0.72);
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 20px 44px -20px rgb(0 0 0 / 0.7);
+    --chip: #0f3d47;
+    --band: #0f3d47;
+    --band-fg: #f0feff;
+    --band-muted: #8fc5cf;
+    --band-line: rgb(143 197 207 / 0.22);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #071e23;
+  --fg: #f0feff;
+  --muted: #8fc5cf;
+  --surface: #0c343d;
+  --surface-2: #0f3d47;
+  --line: rgb(143 197 207 / 0.18);
+  --accent: #2bb5c4;
+  --primary: #2bb5c4;
+  --primary-hover: #7fdbe6;
+  --on-primary: #071e23;
+  --focus: #2bb5c4;
+  --glow-a: rgb(43 181 196 / 0.22);
+  --glow-b: rgb(82 141 155 / 0.2);
+  --header-bg: rgb(7 30 35 / 0.72);
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 20px 44px -20px rgb(0 0 0 / 0.7);
+  --chip: #0f3d47;
+  --band: #0f3d47;
+  --band-fg: #f0feff;
+  --band-muted: #8fc5cf;
+  --band-line: rgb(143 197 207 / 0.22);
+}
+
+/* ------------------------------------------------------------------
+   Base
+   ------------------------------------------------------------------ */
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+
+/* Arabic: IBM Plex Sans Arabic, looser leading, and no tracking.
+   Letter-spacing breaks the joins between Arabic letters. */
+html:lang(ar) body {
+  font-family: var(--font-arabic), "Trebuchet MS", Tahoma, Arial, sans-serif;
+  line-height: 1.8;
+}
+
+:lang(ar),
+:lang(ar) * {
+  letter-spacing: 0 !important;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-primary);
+}
+
+/* ------------------------------------------------------------------
+   Layout
+   ------------------------------------------------------------------ */
+.container-x {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 40em) {
+  .container-x {
+    padding-inline: 1.5rem;
+  }
+}
+
+.section {
+  position: relative;
+  padding-block: clamp(4.5rem, 9vw, 7.5rem);
+}
+
+/* ------------------------------------------------------------------
+   Type scale. Tracking is set per size: tighter for display text,
+   neutral for body, slightly open for small labels.
+   ------------------------------------------------------------------ */
+.display {
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+.h2 {
+  font-size: clamp(1.875rem, 4.2vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+.h3 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: clamp(1.0625rem, 1.5vw, 1.25rem);
+  line-height: 1.55;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+.small {
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+}
+
+.micro {
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.eyebrow::before {
+  content: "";
+  width: 1.5rem;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  opacity: 0.7;
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+/* ------------------------------------------------------------------
+   Surfaces, chips, and buttons
+   ------------------------------------------------------------------ */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.card-interactive {
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card-interactive:hover {
+  border-color: color-mix(in srgb, var(--accent) 50%, transparent);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.875rem;
+  border-radius: 999px;
+  background: var(--chip);
+  color: var(--fg);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.frame {
+  border-radius: 1.75rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: var(--surface);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 3rem;
+  padding: 0.75rem 1.375rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 100ms ease-out,
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-secondary {
+  background: var(--chip);
+  color: var(--fg);
+}
+
+.btn-secondary:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--fg);
+  border-color: var(--line);
+}
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--fg);
+  cursor: pointer;
+  transition: transform 100ms ease-out;
+}
+
+.icon-btn:active {
+  transform: scale(0.94);
+}
+
+/* Press feedback for any tappable surface */
+.press {
+  transition: transform 100ms ease-out;
+}
+
+.press:active {
+  transform: scale(0.97);
+}
+
+/* ------------------------------------------------------------------
+   Focus. Deep Teal on light, Aqua on dark (Aqua fails 3:1 on light).
+   ------------------------------------------------------------------ */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 0.5rem;
+}
+
+.skip-link {
+  position: fixed;
+  inset-inline-start: 1rem;
+  top: -4rem;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: 600;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* ------------------------------------------------------------------
+   Materials. Translucent chrome with a soft fade where content meets
+   the header, instead of a hard divider.
+   ------------------------------------------------------------------ */
+.glass {
+  background: var(--header-bg);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.site-header::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: -14px;
+  height: 14px;
+  background: linear-gradient(var(--header-bg), transparent);
+  pointer-events: none;
+}
+
+/* Soft colour glows used behind hero content. Decorative only. */
+.glow {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(70px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ------------------------------------------------------------------
+   Accessibility preferences
+   ------------------------------------------------------------------ */
+@media (prefers-reduced-transparency: reduce) {
+  .glass {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: var(--bg);
+  }
+  .glow {
+    display: none;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --line: rgb(12 52 61 / 0.45);
+  }
+  :root[data-theme="dark"],
+  :root:not([data-theme="light"]) {
+    --line: rgb(143 197 207 / 0.5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .press:active,
+  .btn:active,
+  .icon-btn:active {
+    transform: none;
+  }
+  .skip-link {
+    transition: none;
+  }
+}
+
+/* Marks an element as keyboard-scrollable and non-selectable while dragging */
+.rail {
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Deep Teal bands (highlights, WhatsApp card). Inverted text in both themes. */
+.band {
+  background: var(--band);
+  color: var(--band-fg);
+}
+
+.band-card {
+  border: 1px solid var(--band-line);
+  border-radius: 1.25rem;
+}
+
+.band-card:not(.band) {
+  background: color-mix(in srgb, var(--band-fg) 6%, transparent);
+}
+
+.band.section {
+  overflow: hidden;
+}
+
+/* Section copy on dark bands uses the band palette, not the light-theme muted color */
+.band .lead,
+.band .small,
+.band .micro {
+  color: var(--band-muted);
+}
+
+.band .eyebrow {
+  color: var(--sea);
+}
+
+/* Colorful icon tiles. Ink text passes contrast on every tone, in both themes. */
+:root {
+  --ink: #0c343d;
+  --tone-aqua: #2bb5c4;
+  --tone-sunrise: #f2b66d;
+  --tone-coral: #f5a18f;
+  --tone-violet: #a5b4fc;
+  --tone-mint: #6ee7b7;
+  --tone-sea: #8fc5cf;
+}
+
+.icon-tile {
+  --tone: var(--tone-aqua);
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.9rem;
+  color: var(--ink);
+  background: linear-gradient(150deg, color-mix(in srgb, var(--tone) 70%, #fff), var(--tone));
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.45),
+    0 10px 20px -12px rgb(12 52 61 / 0.7);
+}
+
+.tone-aqua {
+  --tone: var(--tone-aqua);
+}
+.tone-sunrise {
+  --tone: var(--tone-sunrise);
+}
+.tone-coral {
+  --tone: var(--tone-coral);
+}
+.tone-violet {
+  --tone: var(--tone-violet);
+}
+.tone-mint {
+  --tone: var(--tone-mint);
+}
+.tone-sea {
+  --tone: var(--tone-sea);
+}
+
+/* Slightly dim the illustration in dark mode so it does not glow against the page */
+:root[data-theme="dark"] .frame img {
+  filter: brightness(0.92);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .frame img {
+    filter: brightness(0.92);
+  }
+}
+}
+
+/* ------------------------------------------------------------------
+   Motion: marquee, orbit, twinkle, flicker, shimmer.
+   Every loop stops under prefers-reduced-motion.
+   ------------------------------------------------------------------ */
+.marquee {
+  position: relative;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  animation: marquee 80s linear infinite;
+}
+
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+.anim-orbit {
+  animation: orbit 24s linear infinite;
+}
+
+.anim-orbit-rev {
+  animation: orbit-rev 30s linear infinite;
+}
+
+.anim-twinkle {
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+.anim-flicker {
+  transform-origin: 200px 282px;
+  animation: flicker 0.45s ease-in-out infinite alternate;
+}
+
+.anim-shimmer {
+  background: linear-gradient(115deg, transparent 30%, rgb(255 255 255 / 0.14) 50%, transparent 70%);
+  background-size: 250% 100%;
+  animation: shimmer 7s linear infinite;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbit-rev {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes flicker {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(1.22);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 150% 0;
+  }
+  to {
+    background-position: -50% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .anim-orbit,
+  .anim-orbit-rev,
+  .anim-twinkle,
+  .anim-flicker,
+  .anim-shimmer {
+    animation: none;
+  }
+  .marquee {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}

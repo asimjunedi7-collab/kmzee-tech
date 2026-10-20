@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "KMZee Technology | Business + Tech",
+  "short_name": "KMZee",
+  "description": "Technology execution shaped by business understanding. Digital products and business transformation.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f0feff",
+  "theme_color": "#0c343d",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Services", "short_name": "Services", "url": "/#services" },
+    { "name": "Portfolio", "short_name": "Portfolio", "url": "/#clients" },
+    { "name": "Contact", "short_name": "Contact", "url": "/#contact" }
+  ]
+}
