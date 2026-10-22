@@ -22,12 +22,6 @@ npm start
 
 Open http://localhost:3000 to view the website locally.
 
-## Available Commands
-- `npm run dev` — Development server
-- `npm run build` — Build the website
-- `npm start` — Run the production build
-- `npm run icons` — Generate website icons
-- `npm run typecheck` — Check TypeScript errors
 
 ## Project Structure
 - `app/` — Pages and styles
